@@ -11,7 +11,7 @@ we can do following in the import statements
 
 when we use the import statement the python doesnt look for everywhere it simply looks for the these places in order
     -   the current directry where the script is running
-    -   the pythonpath where the script is stored
+    -   the python path where the script is stored
     -   the standard library directory
     -   the sith package where the libraries like numpy and pandas live
 
