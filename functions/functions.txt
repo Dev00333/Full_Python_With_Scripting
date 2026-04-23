@@ -1,0 +1,3 @@
+they are generally a group of tasks that need to be performed to complete a major task
+they are basically a bundle of small tasks that together perform a complete work
+we use def keyword to make a function they are basically the meathod equvellent of java

@@ -1,0 +1,10 @@
+their are in general several types of loops that is used in python such as:
+for: in this we give a samplespace and iterate over it
+while: in this we itlerate over a list string or a samplespace until condition is met
+do-while: this loop is atleast run once and then checked for the condition for the loop to work
+
+their are also some conditions that are used inside loops to manipulate the working of the loop they are
+as follows:
+break: if this statement is used the loop breaks then and their.
+continue: if this condition is used the loop the condition is totally skipped and the loop moves on.
+range: this is used to define teh samplespace of that particular loop including the 1st but excludeing the last.

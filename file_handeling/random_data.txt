@@ -1,0 +1,60 @@
+00:00:05.563195 VirtualBox VM 7.2.6 r172322 win.amd64 (Jan 30 2026 17:17:49) release log
+00:00:05.563197 Log opened 2026-04-21T15:36:12.739856000Z
+00:00:05.563198 Build Type: release
+00:00:05.563199 OS Product: Windows 11
+00:00:05.563438 OS Release: 10.0.26200.8246
+00:00:05.563441 OS Service Pack: 
+00:00:05.636103 DMI Product Name: Victus by HP Laptop 16-e0xxx
+00:00:05.641832 DMI Product Version:  
+00:00:05.641842 Firmware type: UEFI
+00:00:05.642405 Secure Boot: Enabled
+00:00:05.642415 Host RAM: 15713MB (15.3GB) total, 9615MB (9.3GB) available
+00:00:05.642417 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+00:00:05.642418 Process ID: 16516
+00:00:05.642418 Package type: WINDOWS_64BITS_GENERIC
+00:00:05.642419 Windows Features:
+00:00:05.642419   Core Isolation (Memory Integrity): ENABLED
+00:00:05.643912 Installed Extension Packs:
+00:00:05.643930   None installed!
+00:00:05.644622 Console: Machine state changed to 'Starting'
+00:00:05.644846 GUI: Qt version: 6.8.0
+00:00:05.644862 GUI: HID LEDs sync is enabled
+00:00:05.651031 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.691436 GUI: Cannot notify guest about VM window out-of-focus event
+00:00:06.022309 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:06.022326 SUP: seg #1: R X 0x00001000 LB 0x00204000
+00:00:06.022331 SUP: seg #2: R   0x00205000 LB 0x00053000
+00:00:06.022335 SUP: seg #3: RW  0x00258000 LB 0x00013000
+00:00:06.022338 SUP: seg #4: R   0x0026b000 LB 0x00013000
+00:00:06.022341 SUP: seg #5: RW  0x0027e000 LB 0x00004000
+00:00:06.022345 SUP: seg #6: R   0x00282000 LB 0x00007000
+00:00:06.022348 SUP: seg #7: R X 0x00289000 LB 0x00002000
+00:00:06.022352 SUP: seg #8: R   0x0028b000 LB 0x00007000
+00:00:06.027025 SUP: Loaded VMMR0.r0 (C:\Program Files\Oracle\VirtualBox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:06.027058 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:06.027063 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox/VMMR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:06.029670 Guest architecture: x86
+00:00:06.029749 Guest OS type: 'Ubuntu_64'
+00:00:06.030698 fHMForced=true - No raw-mode support in this build!
+00:00:06.030716 Using execution engine 1
+00:00:06.037014 File system of 'C:\Users\Devang Mishra\VirtualBox VMs\new\new.vdi' is ntfs
+00:00:06.053852 Shared Clipboard: Initialized OLE
+00:00:06.053924 Shared Clipboard: Service loaded
+00:00:06.053949 Shared Clipboard: Mode: Bidirectional
+00:00:06.054069 Shared Clipboard: Service running in normal mode
+00:00:06.065135 Drag and drop service loaded
+00:00:06.065159 Drag and drop mode: Bidirectional
+00:00:06.066305 Audio: Detected default audio driver type is 'HostAudioWas'
+00:00:06.072478 ************************* CFGM dump *************************
+00:00:06.072491 [/] (level 0)
+00:00:06.072493   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:06.072495   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:06.072496   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:06.072496   MemBalloonSize    <integer> = 0x0000000000000000 (0, 0 B)
+00:00:06.072500   Name              <string>  = "new" (cb=4)
+00:00:06.072500   NumCPUs           <integer> = 0x0000000000000006 (6)
+00:00:06.072501   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:06.072501   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512.0 MiB)
+00:00:06.072502   RamSize           <integer> = 0x0000000108700000 (4 436 525 056, 4.1 GiB)
+00:00:06.072503   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:06.072504   UUID              <bytes>   = "4c dc 6c 4b 6f 02 cd 4f 81 3a 5c 53 63 c7 dc c4" (cb=16)

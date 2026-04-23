@@ -1,0 +1,31 @@
+in the python we have multiple modules that are used to import spme special functions and tools from outside the code
+
+in this we simply break the larger code as small chunks of code the we import into other codes for help
+example if i am writing a program for collecting student info i simply import the student information from a file or a package 
+i premaintained for that student
+
+we can do following in the import statements 
+    -   we can simply import whole module (import math)
+    -   we can simply import the module functionality (from math import pi)
+    -   we can give alias to any imports we do (import database as db)
+
+when we use the import statement the python doesnt look for everywhere it simply looks for the these places in order
+    -   the current directry where the script is running
+    -   the pythonpath where the script is stored
+    -   the standard library directory
+    -   the sith package where the libraries like numpy and pandas live
+
+the python is very efficient it does catching if no change is made in the python file the catching is used all of this is stored 
+in the __pycache__ so next time the bytecode is used form here to run faster as python also compiles to bytecode just like java
+
+every file in python has a __name__ which is a build in variable in a module 
+
+** A module is a dingle file but a package is a collection of modules.
+
+for the modules to work properly we have to import them and their are various types of modules such as -
+    - sys: in this module their are predefined path for the python file to look for the imports we make in the file
+            in this module the python checks the path if it is present or not and if we start the python file without adding the 
+            location where our external dependency is stored in the system this causes the python file to crash
+    - os: in this module the python has the commands to manipulate the system and the has all the other system interaction commands 
+            inside it that helps to run scripts and also manipulate the system
+    - 
