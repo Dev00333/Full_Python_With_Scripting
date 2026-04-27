@@ -25,3 +25,13 @@ with open('random_data2.txt', 'a') as w: # this will open the file in append mod
     # w.write('this is a new line') # this will write a new line to the file
     # w.write('\n') # this will add a new line after the line we just wrote
     # w.write('this is another line') # this will append another line to the file
+
+with open('random_data.txt', 'r') as rf:
+    with open('gen2.txt', 'w') as wf:
+        # for line in rf: # this will iterate through the lines of the file random_data.txt and write them to gen2.txt
+        #     wf.write(line) # this will write the line to the file gen2.txt
+        chunk_size = 100
+        rf_chunk = rf.read(chunk_size) # this will read the first 100 characters of the file random_data.txt and assign it to the variable rf_chunk
+        while len(rf_chunk) > 0: # this will keep reading the file until it reaches the end of the file
+            wf.write(rf_chunk) # this will write the chunk to the file gen2.txt
+            rf_chunk = rf.read(chunk_size) # this will read the next 100 characters of the file random_data.txt and assign it to the variable rf_chunk
