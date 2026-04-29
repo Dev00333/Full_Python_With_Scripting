@@ -16,7 +16,8 @@ print(d + tdelta)
 # date2= date1 + timedelta
 # timedelta = date2 -/+ date1
 
-bday = datetime.date(2027, 1, 10)
+bday = datetime.date(d.year+1, 1, 10)
+print(bday)
 till_bday = bday - d
 print(till_bday.total_seconds())
 
