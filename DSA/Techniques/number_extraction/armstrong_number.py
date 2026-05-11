@@ -16,4 +16,4 @@ a=int(input("enter teh number to check for armstorng check:"))
 while(a<0):
     print("enter a valid number.")
     a=int(input("enter a positive number:"))
-print(f"the number {a} status for palindrome is {check(a)}")
+print(f"the number {a} status for armstrong is {check(a)}")
